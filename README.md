@@ -1,21 +1,23 @@
 # edge_to_edge
 
-A customizable Flutter package for enabling edge-to-edge UI on Android.
+A customizable Flutter package for enabling edge-to-edge system UI on Android. This makes your app
+feel more immersive and modern by removing system bar constraints and giving full control over
+appearance.
 
-## 🔧 Features
+---
 
-- Transparent status & navigation bars
-- Customizable icon brightness
-- Toggle top/bottom system overlays
-- Minimal setup
+## ✨ Features
+
+- Transparent **status** and **navigation** bars
+- Custom **icon brightness** for light/dark content
+- Control visibility of **top** and **bottom overlays**
+- Clean, minimal API — just one function call
+
+---
 
 ## 🚀 Getting Started
 
-### 1. Install
-
-Add this to your `pubspec.yaml`:
-
-### 2. Android Setup
+### 1. Android Setup
 
 Find where this style is defined in your_app/android/app/src/main/res/values/styles.xml. There, add
 the following attribute to the style:
@@ -33,6 +35,11 @@ the following attribute to the style:
 
 ```
 
+### 2. Install
+
+Add to your `pubspec.yaml`:
+
 ```yaml
 dependencies:
-  edge_to_edge: ^1.0.0
+  android_edge_ui: ^1.0.0
+
