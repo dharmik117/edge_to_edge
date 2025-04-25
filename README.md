@@ -41,5 +41,5 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  android_edge_ui: ^1.0.0
+  edge_to_edge: ^0.0.2
 

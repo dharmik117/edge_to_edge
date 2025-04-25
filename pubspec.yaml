@@ -1,6 +1,6 @@
 name: edge_to_edge
 description: "A customizable Flutter package for enabling edge-to-edge system UI on Android."
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/dharmik117/edge_to_edge
 
 environment:
