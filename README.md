@@ -35,7 +35,27 @@ the following attribute to the style:
 
 ```
 
-### 2. Install
+### 2. Usage
+
+main.dart
+
+```
+void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  EdgeToEdge.configure(
+    statusBarColor: Colors.transparent, // set color of status bar
+    navigationBarColor: Colors.black, // set color of navigation bar
+    statusBarIconBrightness: Brightness.dark, // set iocn color of status bar
+    navigationBarIconBrightness: Brightness.dark, // set icon color of navigation bar
+    enableTop: true,  //for manage status bar
+    enableBottom: true, // for manage navigation bar (only when 3 button navbar enabled)
+  );
+  runApp(const MyApp());
+}
+
+```
+
+### 3. Install
 
 Add to your `pubspec.yaml`:
 
